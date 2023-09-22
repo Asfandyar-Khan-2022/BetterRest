@@ -12,25 +12,20 @@ And the number of hours of sleep they wish for. This project uses IOS build in M
 
 # App demo - Home screen
 <p align="center">
-  <img src="https://github.com/Asfandyar-Khan-2022/BetterRest/assets/117299102/0e0283e5-3164-4d4d-9b9a-31a1eabc50b9" width=25% height=25%>
+  <img src="https://github.com/Asfandyar-Khan-2022/BetterRest/assets/117299102/08f75312-697e-404c-a495-6d40e02b770e" width=25% height=25%>
 </p>
 
 # App demo - Sleep time
 <p align="center">
-  <img src="https://github.com/Asfandyar-Khan-2022/BetterRest/assets/117299102/cc01f0c8-9a7a-4113-995d-3ba5087485c6" width=25% height=25%>
+  <img src="https://github.com/Asfandyar-Khan-2022/BetterRest/assets/117299102/9569947c-5032-4eaf-bf77-fa41cc407a1d" width=25% height=25%>
 </p>
 
 # App demo - Sleep amount
 <p align="center">
-  <img src="https://github.com/Asfandyar-Khan-2022/BetterRest/assets/117299102/f6534bb8-2ea0-4f4f-9c7d-d5629adc9cc0" width=25% height=25%>
+  <img src="https://github.com/Asfandyar-Khan-2022/BetterRest/assets/117299102/17628c03-5a3a-44ed-bc63-8be09274a468" width=25% height=25%>
 </p>
 
 # App demo - Coffee intake
 <p align="center">
-  <img src="https://github.com/Asfandyar-Khan-2022/BetterRest/assets/117299102/7b3600ed-a9a9-44ee-a5ab-203fad03a6d3" width=25% height=25%>
-</p>
-
-# App demo - Bedtime
-<p align="center">
-  <img src="https://github.com/Asfandyar-Khan-2022/BetterRest/assets/117299102/b8324911-c57b-4cb6-bfb1-c513294bdfbb" width=25% height=25%>
+  <img src="https://github.com/Asfandyar-Khan-2022/BetterRest/assets/117299102/6b10a0ec-322a-431c-a1ad-6958b564947f" width=25% height=25%>
 </p>
