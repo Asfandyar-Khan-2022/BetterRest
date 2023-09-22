@@ -28,18 +28,21 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             Form {
+                // What time to wake up
                 Section(header: Text("When do you want to wake up?").font(.headline)) {
                     DatePicker("Please enter a time", selection: $wakeUp, displayedComponents:
                             .hourAndMinute)
                             .labelsHidden()
                 }
-    
+                
+                // Hours of sleep wanted
                 Section(header: Text("Desired amount of sleep").font(.headline)){
                     Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4...12, step: 0.25)
                 }.onChange(of: sleepAmount){ _ in
                     calculateBedtime()
                 }
                 
+                // Daily coffee intake
                 Section(header: Text("Daily coffee intake").font(.headline)){
                     Picker(coffeeAmount == 1 ? "1 cup" : "\(coffeeAmount) cups", selection: $coffeeAmount) {
                         ForEach(0..<21) {
@@ -49,6 +52,8 @@ struct ContentView: View {
                         calculateBedtime()
                     }
                 }
+                
+                // Ideal bedtime calculated
                 Section(header: Text("Your ideal bedtime is...").font(.headline)) {
                     Text(alertMessage)
                 }
@@ -58,6 +63,7 @@ struct ContentView: View {
         }
     }
     
+    // Changes alertMessage property value to display the ideal bedtime
     func calculateBedtime() {
         do {
             let config = MLModelConfiguration()
