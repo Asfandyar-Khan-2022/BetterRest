@@ -1,7 +1,7 @@
 # BetterRest
 This project creates a predition based on variable parameters provided by the user. 
 The prediction is the ideal time to go to bed considering the amount of coffee the individual has had.
-And the number of hours of sleep they wish for. This project uses IOS build in ML to train a model.
+And the number of hours of sleep they wish for. This project uses IOS built in ML to train a model.
 
 # Code structure
 - @State variables are created to store all relevant values
